@@ -8,23 +8,23 @@ export default function Header() {
             <nav>
                 <ul className={styles.navList}>
                     <li className={styles.navListItem}>
-                        <Link href="/home">
-                            <a className={styles.navLink}>Home</a>
+                        <Link id="home" href="home" className={styles.navLink}>
+                            Home
                         </Link>
                     </li>
                     <li className={styles.navListItem}>
-                        <Link href="/blogs">
-                            <a className={styles.navLink}>Blog Posts</a>
+                        <Link id="blogs" href="blogs" className={styles.navLink}>
+                            Blog Posts
                         </Link>
                     </li>
                     <li className={styles.navListItem}>
-                        <Link href="/about">
-                            <a className={styles.navLink}>About Me</a>
+                        <Link id="about" href="about" className={styles.navLink}>
+                            About Me
                         </Link>
                     </li>
                     <li className={styles.navListItem}>
-                        <Link href="/contact">
-                            <a className={styles.navLink}>Contact Me</a>
+                        <Link id="contact" href="contact" className={styles.navLink}>
+                            Contact Me
                         </Link>
                     </li>
                 </ul>
