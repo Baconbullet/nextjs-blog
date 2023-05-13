@@ -1,4 +1,5 @@
 import { siteTitle } from "../components/layout";
+import Layout from "../components/layout";
 
 export default function contact() {
     return (
